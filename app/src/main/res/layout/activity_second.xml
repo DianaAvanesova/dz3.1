@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dno_okean_korally_60694_800x1200"
+    android:background="@drawable/les"
     android:scaleType="centerCrop"
     tools:context=".SecondActivity">
 
@@ -21,11 +21,12 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Классы морских животных "
+        android:layout_width="151dp"
+        android:layout_height="31dp"
+        android:background="#F3EEEE"
+        android:text="виды лесной жизни"
+        android:textColor="#131313"
         android:textColorHint="#313588"
-        android:textColor="#E17F4A"
         app:layout_constraintBottom_toTopOf="@+id/list_animal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

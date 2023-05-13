@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/dno_okean_korally_60694_800x1200"
+    android:background="@drawable/les"
     android:scaleType="centerCrop"
     tools:context="ThreeActivity">
 
@@ -13,10 +13,10 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#538EBD"
+        android:background="#F5F5F6"
         android:gravity="center"
         android:text="Список животных"
-        android:textColor="#F84A13"
+        android:textColor="#151515"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,8 +24,8 @@
         app:layout_constraintVertical_bias="0.05" />
 
     <ListView
-        android:layout_width="409dp"
         android:id="@+id/listView"
+        android:layout_width="409dp"
         android:layout_height="633dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
